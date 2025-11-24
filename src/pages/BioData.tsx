@@ -19,15 +19,18 @@ const BioData = () => {
         {/* Header */}
         <div className="text-center mb-12 animate-fade-in-up">
           <Link to="/" className="inline-block mb-4">
-            <Button variant="ghost" size="sm" className="hover:bg-white/10">
-              <Home className="mr-2 h-4 w-4" />
-              Back to Home
-            </Button>
+          <Button 
+            variant="outline" 
+            className="glass bg-white text-black border-2 border-white hover:bg-white/90 rounded-full"
+          >
+            <Home className="mr-2 w-4 h-4 text-black" />
+            Back to Home
+          </Button>
           </Link>
           <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.5)] mb-4">
-            Bio-Data
+            Resume
           </h1>
-          <p className="text-xl text-white/90 drop-shadow-[0_2px_10px_rgba(0,0,0,0.3)]">Personal and professional information</p>
+          <p className="text-xl text-white/90 drop-shadow-[0_2px_10px_rgba(0,0,0,0.3)]">My professional journey and expertise</p>
         </div>
 
         {/* Bio Data Table */}

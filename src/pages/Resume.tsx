@@ -19,10 +19,13 @@ const Resume = () => {
         {/* Header */}
         <div className="text-center mb-12 animate-fade-in-up">
           <Link to="/" className="inline-block mb-4">
-            <Button variant="ghost" size="sm" className="hover:bg-white/10">
-              <Home className="mr-2 h-4 w-4" />
-              Back to Home
-            </Button>
+          <Button 
+            variant="outline" 
+            className="glass bg-white text-black border-2 border-white hover:bg-white/90 rounded-full"
+          >
+            <Home className="mr-2 w-4 h-4 text-black" />
+            Back to Home
+          </Button>
           </Link>
           <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.5)] mb-4">
             Resume
@@ -122,7 +125,7 @@ The system is delivered as a full-stack web application, with a FastAPI backend 
           <ul className="space-y-3">
             <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
               <span className="text-softTeal text-xl">★</span>
-              <span className="text-foreground/80">Developed a full-stack Hernia Detection System using machine learning and integrated it with a user-friendly web interface.</span>
+              <span className="text-foreground/80">Developed a full-stack Hernia Detection System using self supervised learning and integrated it with a user-friendly web interface.</span>
             </li>
             <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
               <span className="text-softPink text-xl">★</span>
