@@ -68,7 +68,16 @@ const BioData = () => {
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors duration-300">
                   <td className="py-4 px-6 font-semibold text-softTeal">LinkedIn</td>
-                  <td className="py-4 px-6 text-foreground/80">https://www.linkedin.com/in/prajwal-pawar-668373308/</td>
+                  <td className="py-4 px-6">
+                    <a
+                      href="https://www.linkedin.com/in/prajwal-pawar-668373308/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-foreground/80 hover:text-softTeal transition-colors"
+                    >
+                      https://www.linkedin.com/in/prajwal-pawar-668373308/
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors duration-300">
                   <td className="py-4 px-6 font-semibold text-lavender">GitHub</td>
@@ -82,10 +91,7 @@ const BioData = () => {
                   <td className="py-4 px-6 font-semibold text-softPink">Hobbies</td>
                   <td className="py-4 px-6 text-foreground/80">Hiking, Studying psychology and philosophy, Following global geopolitics and international affairs, Reading Sci-Fi</td>
                 </tr>
-                <tr className="hover:bg-white/5 transition-colors duration-300">
-                  <td className="py-4 px-6 font-semibold text-softTeal">Marital Status</td>
-                  <td className="py-4 px-6 text-foreground/80">Single</td>
-                </tr>
+              
               </tbody>
             </table>
           </div>
