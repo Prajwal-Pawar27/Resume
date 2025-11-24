@@ -81,7 +81,16 @@ const BioData = () => {
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors duration-300">
                   <td className="py-4 px-6 font-semibold text-lavender">GitHub</td>
-                  <td className="py-4 px-6 text-foreground/80">https://github.com/Prajwal-Pawar27</td>
+                  <td className="py-4 px-6">
+                    <a
+                      href="https://github.com/Prajwal-Pawar27"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-foreground/80 hover:text-lavender transition-colors"
+                    >
+                      https://github.com/Prajwal-Pawar27
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors duration-300">
                   <td className="py-4 px-6 font-semibold text-skyBlue">Languages</td>
